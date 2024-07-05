@@ -1,4 +1,3 @@
-console.log('labas');
-console.log('labas');
-console.log('labas');
-console.log('labas');
+import { header } from "./js/header.js";
+
+header();

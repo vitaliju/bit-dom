@@ -45,7 +45,7 @@ Reikia sukurti masyva, kuriame yra atskirais objektais
 aprasyti 10 pokemonu, t.y.
 - pavadinimas
 - pagrindine spalva
-- nuoroda i paveiksliuka is isoriniio saltinio
+- nuoroda i paveiksliuka is isorinio saltinio
 - forma (ilgas, apvalus, kvadratinis)
 - tipas (zeme, oras, ugnis, vanduo)
 

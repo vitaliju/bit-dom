@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    background-color: bisque;
 }
 
 body {
@@ -31,18 +32,18 @@ nav {
     font-size: 1.2rem;
 }
 
-nav>.link {
+nav > .link {
     padding: 0.3rem 1rem;
     text-decoration: none;
     color: #36f;
     border-bottom: 0.2rem solid transparent;
 }
 
-nav>.link:hover {
+nav > .link:hover {
     border-bottom-color: #36f;
 }
 
-nav>.link.active {
+nav > .link.active {
     background-color: #36f;
     color: #fff;
 }

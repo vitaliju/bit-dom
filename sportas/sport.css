@@ -1,0 +1,15 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+}
+td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
