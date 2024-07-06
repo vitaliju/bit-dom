@@ -9,6 +9,7 @@ export function carsTable(data) {
            <td>${data[i].engineVolume}</td>
            <td>${data[i].gearbox}</td>
            <td>${data[i].price}</td>
+           <td>${data[i].read}</td>
         </tr>`;
     }
     return `
@@ -21,6 +22,7 @@ export function carsTable(data) {
                    <td>Engine Volume</td>
                    <td>Gearbox</td>
                    <td>Price</td>
+                   <td>Read more</td>
                 </tr>
             </thead>
             <tbody>${HTML}</tbody>
