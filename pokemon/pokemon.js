@@ -5,7 +5,7 @@ const pokemonData = [
         type: 'Grass Poison',
         species: 'Seed Pokemon',
         weight: '6.9kg',
-        link: "https://pokemondb.net/pokedex/bulbasaur",
+        link: "https://www.pokemon.com/us/pokedex/bulbasaur",
     },
     {
         img: "./img-pokemon/charm.png",
@@ -13,7 +13,7 @@ const pokemonData = [
         type: 'Fire',
         species: 'Flame Pokemon',
         weight: '19kg',
-        link: "https://pokemondb.net/pokedex/charmeleon",
+        link: "https://www.pokemon.com/us/pokedex/charmeleon",
     },
     {
         img: "./img-pokemon/wart.png",
@@ -21,7 +21,7 @@ const pokemonData = [
         type: 'Water',
         species: 'Turtle Pokemon',
         weight: '22.5kg',
-        link: "https://pokemondb.net/pokedex/wartortle",
+        link: "https://www.pokemon.com/us/pokedex/wartortle",
     },
     {
         img: "./img-pokemon/pidgeot.png",
@@ -29,7 +29,7 @@ const pokemonData = [
         type: 'Noraml Flying',
         species: 'Bird Pokemon',
         weight: '39.5kg',
-        link: "https://pokemondb.net/pokedex/pidgeot",
+        link: "https://www.pokemon.com/us/pokedex/pidgeot",
     },
     {
         img: "./img-pokemon/raichu.png",
@@ -37,7 +37,7 @@ const pokemonData = [
         type: 'Electric',
         species: 'Mouse Pokemon',
         weight: '30kg',
-        link: "https://pokemondb.net/pokedex/raichu",
+        link: "https://www.pokemon.com/us/pokedex/raichu",
     },
     {
         img: "./img-pokemon/rattata.png",
@@ -45,7 +45,7 @@ const pokemonData = [
         type: 'Normal',
         species: 'Mouse Pokemon',
         weight: '3.5kg',
-        link: "https://pokemondb.net/pokedex/rattata",
+        link: "https://www.pokemon.com/us/pokedex/rattata",
     },
     {
         img: "./img-pokemon/vulpix.png",
@@ -53,7 +53,7 @@ const pokemonData = [
         type: 'Fire',
         species: 'Fox Pokemon',
         weight: '9.9kg',
-        link: "https://pokemondb.net/pokedex/vulpix",
+        link: "https://www.pokemon.com/us/pokedex/vulpixhttps://pokemondb.net/pokedex/vulpix",
     },
     {
         img: "./img-pokemon/meowth.png",
@@ -61,7 +61,7 @@ const pokemonData = [
         type: 'Normal',
         species: 'Scratch Cat Pokemon',
         weight: '4.2kg',
-        link: "https://pokemondb.net/pokedex/meowth",
+        link: "https://www.pokemon.com/us/pokedex/meowth",
     },
     {
         img: "./img-pokemon/psyduck.png",
@@ -69,7 +69,7 @@ const pokemonData = [
         type: 'Water',
         species: 'Duck Pokemon',
         weight: '19.6kg',
-        link: "https://pokemondb.net/pokedex/psyduck",
+        link: "https://www.pokemon.com/us/pokedex/psyduck",
     },
     {
         img: "./img-pokemon/rapidash.png",
@@ -77,7 +77,7 @@ const pokemonData = [
         type: 'Fire',
         species: 'Fire Horse Pokemon',
         weight: '95kg',
-        link: "https://pokemondb.net/pokedex/rapidash",
+        link: "https://www.pokemon.com/us/pokedex/rapidash",
     },
 ];
 
