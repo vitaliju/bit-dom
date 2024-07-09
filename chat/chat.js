@@ -1,3 +1,6 @@
+import { header } from "../js/header.js";
+header();
+
 const data = [
     {
         person: 'other',

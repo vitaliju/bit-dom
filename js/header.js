@@ -1,19 +1,27 @@
-const header = document.createElement('header');
-header.innerHTML = `
-    <header>
-        <nav>
-            <a href="../">Home</a>
-            <a href="../products/">Products</a>
-            <a href="../about-us/">About us</a>
-            <a href="../contact/">Contact</a>
-            <a href="../pokemon/">Pokemon</a>
-            <a href="../sportas/">Sportas</a>
-            <a href="../automobiliai/">Automobiliai</a>
-            <a href="../namai-butai/">Namai</a>
-            <a href="../chat/">Chat</a>
-        </nav>
-    </header>
-`;
+const data = [
+    {href: '', text: 'Home'},
+    {href: 'about-us', text: 'About'},
+    {href: 'chat', text: 'Chat'},
+    {href: 'products', text: 'Products'},
+    {href: 'sportas', text: 'Sport'},
+    {href: 'pokemon', text: 'Pokemon'},
+    {href: 'automobiliai', text: 'Auto'},
+    {href: 'namai-butai', text: 'Apartment'},
+    {href: 'contact', text: 'Contact'},
+];
 
-document.body.prepend(header);
+export function header(isHomepage = false) {
+    const dot = isHomepage ? '' : '.';
 
+    let navHTML = '';
+
+    for (const item of data) {
+        navHTML += `<a href="${dot}./${item.href}">${item.text}</a>`;
+    }
+    
+    document.body.insertAdjacentHTML('afterbegin', `
+        <header>
+            <img src="#" alt="Logo">
+            <nav>${navHTML}</nav>
+        </header>`);
+}

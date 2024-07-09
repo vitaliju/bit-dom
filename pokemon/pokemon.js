@@ -1,3 +1,6 @@
+import { header } from "../js/header.js";
+header();
+
 const pokemonData = [
     {
         img: "./img-pokemon/bulba.png",

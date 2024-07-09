@@ -1,3 +1,6 @@
+import { header } from "../js/header.js";
+header();
+
 import { carsTable } from "../js/cars.js"
 import { audiData } from "./data/audi.js";
 import { subaruData } from "./data/subaru.js";

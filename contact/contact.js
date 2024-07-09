@@ -1,8 +1,10 @@
+import { header } from "../js/header.js";
+header();
+
 const initialElementDOM = document.getElementById('initial_element');
 
 initialElementDOM.innerHTML = `
 <header>
-    <img scr="#" alt="Logo">
     <nav>NAV</nav>
 </header>
 <main>MAIN</main>

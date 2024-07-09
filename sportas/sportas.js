@@ -1,3 +1,6 @@
+import { header } from "../js/header.js";
+header();
+
 import { renderSportTable } from "../js/sportas2.js";
 import { basketballData } from "./data/basketball.js";
 import { footballData } from "./data/football.js";

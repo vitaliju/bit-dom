@@ -1,5 +1,10 @@
+
 import { header } from "./js/header.js";
 
-// header();
+const buttonDOM = document.querySelector('button');
 
-document.getElementsByTagName('header')[0].innerHTML = header();
+buttonDOM.addEventListener('click', () => {
+    console.log('Valio!!!');
+});
+
+header();

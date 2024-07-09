@@ -1,3 +1,6 @@
+import { header } from "../js/header.js";
+header();
+
 import { apartmentTable } from "../js/namas.js";
 import { kaunasData } from "./data/kaunas.js";
 import { klaipedaData } from "./data/klaipeda.js";
