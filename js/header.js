@@ -1,3 +1,4 @@
+// localhoste
 const data = [
     {href: '', text: 'Home'},
     {href: 'about-us', text: 'About'},
@@ -25,3 +26,33 @@ export function header(isHomepage = false) {
             <nav>${navHTML}</nav>
         </header>`);
 }
+
+// ne localhoste
+// const data = [
+//     {href: '', text: 'Home'},
+//     {href: 'about-us', text: 'About'},
+//     {href: 'chat', text: 'Chat'},
+//     {href: 'products', text: 'Products'},
+//     {href: 'sportas', text: 'Sport'},
+//     {href: 'pokemon', text: 'Pokemon'},
+//     {href: 'automobiliai', text: 'Auto'},
+//     {href: 'namai-butai', text: 'Apartment'},
+//     {href: 'contact', text: 'Contact'},
+// ];
+
+// export function header() {
+//     const href = location.href.endsWith('/') ? location.href.slice(0, -1) : location.href;
+//     const isHomepage = href === location.origin;
+//      const dot = isHomepage ? '' : '.';
+//      let navHTML = '';
+
+//      for (const item of data) {
+//          navHTML += `<a href="${dot}./${item.href}">${item.text}</a>`;
+//      }
+    
+//     document.body.insertAdjacentHTML('afterbegin', `
+//          <header>
+//              <img src="#" alt="Logo">
+//             <nav>${navHTML}</nav>
+//          </header>`);
+// }
